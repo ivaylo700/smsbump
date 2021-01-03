@@ -1,0 +1,35 @@
+.desktop-content {
+    margin-left: 235px;
+    background-color: #B5B5B5;
+    height: 100vh;
+}
+
+.pad-content {
+    width: 40%;
+    background-color: #B5B5B5;
+    margin-left: 40%;
+    height: 100vh;
+}
+
+.phone-content {
+    width: 25%;
+    background-color: #B5B5B5;
+    margin-left: 49%;
+    height: 100vh;
+}
+
+.main-content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.desktop-content-background {
+    width: calc(100% - 235px);
+    margin-left: 235px;
+    z-index: -1;
+    background-color: black;
+    position: absolute;
+    top: 125px;
+    height: 100vh;
+}

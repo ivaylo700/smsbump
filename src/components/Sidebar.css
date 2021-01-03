@@ -1,0 +1,86 @@
+.sidebar {
+    width: 235px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+.sidebar a {
+    padding: 6px 8px 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: black;
+}
+
+.sidebar img {
+    padding-right: 15px;
+}
+
+.sidebar-devices {
+    border-bottom: 1px solid #E2E9EF;
+    padding: 10px 0;
+}
+
+.pad {
+    padding: 0 35px;
+}
+
+.desktop, .pad, .phone {
+    cursor: pointer;
+}
+
+.sidebar .sidebar-footer {
+    margin-top: 95px; 
+    background-color: #606DC5;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px;
+    padding: 11px 0;
+}
+
+.arrow {
+    padding-left: 15px;
+}
+
+.theme-options-menu {
+    transition: 0.5s;
+    overflow-x: hidden;
+    top: 40px;
+    display: flex;
+    width: 320px;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 100%;
+    background-color: #F4F6F8;
+}
+
+.hide-menu {
+    width: 0;
+}
+
+.theme-options-left {
+    padding: 0 10px 20px 30px;
+}
+
+.theme-options:nth-child(1), .theme-options:nth-child(2) {
+    padding-top: 20px;
+}
+
+.theme-options-text {
+    font-size: 12px;
+    color: grey;
+    text-align: left;
+}
+
+.MainMenuSelector {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: 1;
+    opacity: 0.7;
+}

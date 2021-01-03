@@ -1,0 +1,79 @@
+.topmenu {
+    position: relative;
+    overflow: hidden;
+    background-color: #F4F6F8;
+    border-bottom: 1px solid black;
+}
+  
+.topmenu-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.topmenu-right {
+    float: right;
+    padding: 21px 28px 13px 28px;
+}
+
+.design {
+    background-color: #606DC5;
+    padding: 21px 28px 19px 28px;
+    font-family: Helvetica;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-weight: bold;
+    float: left;
+    border: 1px solid #606DC5;
+}
+
+.behavior {
+    border-right: 1px solid #E2E9EF;
+    padding: 11px 28px 9px 28px;
+    font-family: Helvetica;
+    font-size: 14px;
+    float: left;
+    color: #606DC5;
+    margin: 10px 0;
+}
+
+.form-1-button {
+    padding: 8px 36px;
+    border-radius: 5px;
+    background-color: #606DC5;
+    margin-right: 10px;
+    font-size: 13px;
+    color: white;
+    width: 120px;
+    border: 1px solid #606DC5;
+}
+
+.success {
+    padding: 8px 36px;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 120px;
+    border: 1px solid black;
+}
+
+.undo, .redo, .trash {
+    padding-right: 5px;
+}
+
+.redo-icon-text {
+    color: #C3CFD8;
+}
+
+.icon-text {
+    font-size: 13px;
+    vertical-align: text-top;
+}
+
+.redo-icon {
+    padding: 0 15px;
+    border-right: 1px solid #E2E9EF;
+    margin-right: 15px;
+}

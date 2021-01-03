@@ -1,0 +1,9 @@
+html {
+  height:calc(100% - 1005px);
+}
+body {
+  height:calc(100% - 1005px);
+}
+.App {
+  text-align: center;
+}
